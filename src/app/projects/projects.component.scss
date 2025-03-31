@@ -1,0 +1,65 @@
+.experience-container {
+  padding: 4rem 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  text-align: left;
+  background-color: #1a1515;
+  border-radius: 12px;
+  box-shadow: 0px 8px 25px rgba(255, 255, 255, 0.3);
+  transition: box-shadow 0.4s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.experience-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 12px 30px rgba(255, 255, 255, 0.5);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.experience-card {
+  background-color: #2b2727;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #e0e0e0;
+  margin-bottom: 0.5rem;
+}
+
+.role, .duration {
+  font-size: 1.1rem;
+  color: #cfcfcf;
+  margin: 0.3rem 0;
+}
+
+.achievements {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+}
+
+.achievements li {
+  list-style-type: none;
+  margin: 0.5rem 0;
+  color: #888;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #3498db;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2c3e50;
+  text-decoration: underline;
+}

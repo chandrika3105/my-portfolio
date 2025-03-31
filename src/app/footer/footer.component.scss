@@ -1,0 +1,27 @@
+/* Footer Styling */
+.footer {
+    //background-color: #333; /* Dark background */
+    color: #fff;            /* White text */
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;        /* Space between footer and content above */
+  }
+  
+  .footer p {
+    font-size: 1.1em;
+    color: #bbb;
+  }
+
+  .social-icon {
+    color: #e0e0e0;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    align-items: center;
+    gap: 10px; /* Add space between the icon and the text */
+    margin-top: 2rem;
+    margin-right:2rem;
+  }
+
+ 
+  

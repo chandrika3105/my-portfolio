@@ -1,0 +1,86 @@
+.about-container {
+    padding: 4rem 2rem;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    background-color: #1a1515;
+    border-radius: 12px; /* Consistent rounded corners */
+    box-shadow: 0px 8px 25px rgba(255, 255, 255, 0.3); /* Bright and prominent shadow */
+    transition: box-shadow 0.4s ease-in-out, transform 0.3s ease-in-out; /* Smooth effects */
+    margin-top:2rem;
+}
+
+.about-container:hover {
+    box-shadow: 0px 12px 35px rgba(255, 255, 255, 0.4); /* More intense on hover */
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+
+.about-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.about-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #888;
+    text-align: left;
+}
+
+.about-skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem 1.5rem; /* Taller button */
+    background-color: black; /* Green button */
+    color: white;
+    border-radius: 0.75rem; /* Slightly rounded corners */
+    transition: all 0.3s ease;
+    text-decoration: none;
+    width: fit-content;
+    font-size: 1.1rem;
+    font-weight: 600;
+    box-shadow: 0 3px 8px rgba(241, 237, 237, 0.2);
+
+    &:hover {
+        background-color: #8b4913; /* Darker green on hover */
+        box-shadow: 0 3px 8px rgba(244, 242, 242, 0.2);
+        transform: translateY(-2px); /* Lifts the button slightly */
+    }
+
+    &:active {
+        transform: translateY(0px); /* Prevents excessive movement when clicked */
+        box-shadow: 0 3px 8px rgba(234, 230, 230, 0.2);
+    }
+
+    .button__icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        fill: currentColor;
+        transition: transform 0.3s ease;
+    }
+
+    &:hover .button__icon {
+        transform: translateX(4px); /* Moves the icon slightly on hover */
+    }
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
